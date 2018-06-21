@@ -11,10 +11,6 @@ import java.util.logging.Logger;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author mananbhatt
- */
 public class Page2 extends javax.swing.JFrame {
 
     /**
