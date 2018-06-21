@@ -11,10 +11,6 @@ import java.util.logging.Logger;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author mananbhatt
- */
 public class Page2 extends javax.swing.JFrame {
 
     /**
@@ -65,7 +61,14 @@ public class Page2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void RunPythonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RunPythonActionPerformed
+<<<<<<< HEAD
 String pythonScriptPath = "python C:\\Users\\dipal\\Desktop\\Internship\\CloudFormation_create.py";
+=======
+String pythonScriptPath = "/Users/abc/Desktop/Docker/AWS/Python Files/CloudFormation_create.py";
+String[] cmd = new String[2];
+cmd[0] = "python"; // check version of installed python: python -V
+cmd[1] = pythonScriptPath;
+>>>>>>> 1053f55967bdd6c6bdd6745e9918cb51ec52b6be
 // create runtime to execute external command
 Runtime rt = Runtime.getRuntime();
 Process pr = null;
