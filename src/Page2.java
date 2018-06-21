@@ -65,7 +65,7 @@ public class Page2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void RunPythonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RunPythonActionPerformed
-String pythonScriptPath = "/Users/mananbhatt/Desktop/Docker/AWS/Python Files/CloudFormation_create.py";
+String pythonScriptPath = "python C:\\Users\\dipal\\Desktop\\Internship\\CloudFormation_create.py";
 String[] cmd = new String[2];
 cmd[0] = "python"; // check version of installed python: python -V
 cmd[1] = pythonScriptPath;
@@ -73,7 +73,7 @@ cmd[1] = pythonScriptPath;
 Runtime rt = Runtime.getRuntime();
 Process pr = null;
         try {
-            pr = rt.exec(cmd);
+            pr = rt.exec(pythonScriptPath);
             // retrieve output from python script
         } catch (IOException ex) {
             Logger.getLogger(Page2.class.getName()).log(Level.SEVERE, null, ex);
