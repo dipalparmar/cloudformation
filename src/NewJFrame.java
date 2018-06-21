@@ -105,10 +105,8 @@ public class NewJFrame extends javax.swing.JFrame {
    String pwd = pass.getText();
    if(user.equals("dipal") && pwd.equals("abc"))
    {
-      Welcome wel = new Welcome();
+      Page2 wel = new Page2();
       wel.setVisible(true);
-      JLabel label = new JLabel("Welcome:"+user);
-      wel.getContentPane().add(label);
     }
     else
     {
