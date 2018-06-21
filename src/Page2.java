@@ -65,7 +65,7 @@ public class Page2 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void RunPythonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RunPythonActionPerformed
-String pythonScriptPath = "/Users/mananbhatt/Desktop/Docker/AWS/Python Files/CloudFormation_create.py";
+String pythonScriptPath = "/Users/abc/Desktop/Docker/AWS/Python Files/CloudFormation_create.py";
 String[] cmd = new String[2];
 cmd[0] = "python"; // check version of installed python: python -V
 cmd[1] = pythonScriptPath;
