@@ -66,9 +66,6 @@ public class Page2 extends javax.swing.JFrame {
 
     private void RunPythonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RunPythonActionPerformed
 String pythonScriptPath = "python C:\\Users\\dipal\\Desktop\\Internship\\CloudFormation_create.py";
-String[] cmd = new String[2];
-cmd[0] = "python"; // check version of installed python: python -V
-cmd[1] = pythonScriptPath;
 // create runtime to execute external command
 Runtime rt = Runtime.getRuntime();
 Process pr = null;
