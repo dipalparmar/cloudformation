@@ -8,10 +8,6 @@ import javax.swing.JOptionPane;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author dipal
- */
 public class NewJFrame extends javax.swing.JFrame {
 
     /**
